@@ -1,0 +1,31 @@
+* {
+  font-famil: 'verdana';
+}
+table {
+  width:100%;
+  margin: auto;
+  margin-bottom: 15px;
+  border-collapse: collapse;
+}
+input {
+  margin: 5px;
+}
+th{
+  background-color: rgb(211, 226, 248);
+  color:#fff;
+}
+th, td {
+  border: 1px solid #ccc;
+  font: 13px 'verdana';
+  padding: 5px;
+}
+th {
+  font-weight: bold
+}
+
+table [type="text"],
+table [type="email"],
+table [type="number"] {
+  display: block;
+  width: 90px;
+}
